@@ -4,7 +4,6 @@ import './App.css';
 function App() {
   return (
     <div>
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-warning" id="userNavbar">
      <div class="container-fluid" >
     <a class="navbar-brand" href="#">Instrument Delight</a>
@@ -18,7 +17,7 @@ function App() {
         <FaHome size={30}/>
         </li>
         <li class="nav-item ">
-          
+          //comment
           <a class="nav-link" href="/components/counter" id="instrumentHomeButton">HOME </a>
         </li>
         &nbsp;&nbsp;
