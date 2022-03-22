@@ -17,7 +17,6 @@ function App() {
         <FaHome size={30}/>
         </li>
         <li class="nav-item ">
-          //comment
           <a class="nav-link" href="/components/counter" id="instrumentHomeButton">HOME </a>
         </li>
         &nbsp;&nbsp;
