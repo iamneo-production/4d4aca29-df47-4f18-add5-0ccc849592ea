@@ -12,3 +12,23 @@
 .reset{
   color: orange;
 }
+.header {
+    color:black ;
+    font-family: verdana;
+    justify-content: center;
+    align-items: center;
+   }
+  
+  .header2 {
+    font-style: italic;
+    color: white;
+    text-transform: uppercase;
+    background-color:orange; 
+  }
+  
+  .class{
+    tab-size: 150px;
+  }
+  .element{
+    font-variant: small-caps;
+  }

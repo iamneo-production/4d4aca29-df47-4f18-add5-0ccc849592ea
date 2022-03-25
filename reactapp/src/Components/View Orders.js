@@ -1,4 +1,5 @@
 import * as ReactBootStrap from "react-bootstrap";
+import './index.css';
 
 const View=() =>{
     const view =[
