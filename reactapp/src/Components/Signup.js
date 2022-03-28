@@ -1,7 +1,7 @@
 import React from 'react';
 import {Form,Col,Row,Container,Button} from 'react-bootstrap';
 import {Link} from "react-router-dom";
-//import uiImage from './image/signin.png';
+
 import './index.css';
 
 class Signup extends React.Component
@@ -72,15 +72,14 @@ class Signup extends React.Component
                </p>
                 </Form>
                 </Col>
-                     <Col lg={6} md={6} sm={4}>
-                    
+                     <Col lg={8} md={8} sm={8}>
+                     <img className=" w-100" src="https://www.popsci.com/uploads/2019/03/18/QDDBI4F3Z2RK7MSDAL6BM73I2U.jpg" alt=""/>
                      </Col>
                 </Row>
                     </Container>
                 </>
         </div>
     )
-    };
-};
-
+    }
+}
 export default Signup;
