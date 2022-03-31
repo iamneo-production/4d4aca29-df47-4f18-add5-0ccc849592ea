@@ -1,40 +1,18 @@
-import React, {Component} from 'react';
 import './App.css';
-import PermanentNav from './components/PermanentNav';
-import _n from './components/navbar2';
-import _r from './components/order';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
+import 'bootstrap/dist/css/bootstrap.css';
+import {Switch,Route} from 'react-router-dom';
+import Login from './Login';
+import Signin from  './Signin';
 
-} from 'react-router-dom';
-class App extends Component{
-  render(){
-    return(
-      <Router>
-      
-    <div>
-      <Switch>
-      <Route exact path="/home">
-        <PermanentNav />
-      </Route>
-      <Route path="/cart">
-      <_r></_r>
-      </Route>
-      <Route path="/myorders">
-      <PermanentNav/>
-      </Route>
-      <Route path="/logout">
-      <PermanentNav />
-      </Route>
-      <Route exact path="/">
-      <PermanentNav/>
-      </Route>
-      </Switch>
-    </div>
-    </Router>
-    );
-  }
+function App() {
+  return (<div className="App">
+<Switch>
+ <Route path="/signin" exact component={Signin}/>
+ <Route path="/login" exact component={Login}/>
+ <Route path="/" component={Signin}/>
+</Switch>
+</div>
+);
 }
+
 export default App;
