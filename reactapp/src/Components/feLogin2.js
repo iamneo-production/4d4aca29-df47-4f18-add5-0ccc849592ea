@@ -1,14 +1,13 @@
 import React from 'react';
 import {Form,Col,Row,Container,Button} from 'react-bootstrap';
-
 import {Link} from "react-router-dom";
-
 import './index.css';
+
 
 const AdminLogin = ()=>{
     return(
     <div>
-        <h1 className="mt-5" style={{textAlign:"center",color:"orange"}}>LOGIN </h1>
+        <h2 className="mt-3" style={{textAlign:"center",color:"orange"}}> ADMIN LOGIN </h2>
         <Container className="mt-5">
             <Row>
                 <Col lg={4} md={6} sm={12} className="text-center mt-3 p-3" >
@@ -23,18 +22,17 @@ const AdminLogin = ()=>{
                 
                 <Form.Control type="password" placeholder="Password" />
                 </Form.Group>
-                
+               
                 <Button style={{width:"210px"}} variant="primary btn-block" type="submit">Login </Button>
-                <div className="text-left mt-4">
-                           <a href="#"><small className="reset"> Forget Password    | |  <Link to="signin" style={{color:"red"}}> New user ? click here </Link></small > </a> 
-                            </div>
-                        
-                 </Form>
+                 <div className="text-left mt-4">
+                    <a href="http://localhost:1039/Members/UserProfile.aspx?ID=56f74cc7-7680-4f1b-9207-0ab8dad63cad" className="reset"> Forget Password  </a >   | |  New user ? <Link to="signin" style={{color:"red"}}> click here </Link>
+                    </div>
+             </Form>
              </Col>
-            <Col lg={4} md={6} sm={6}>
-            <img className=" w-100"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVsLLMNSFHs4yaSXy4N2qsbXdZTbqZ7co0qA&usqp=CAU" alt=""/>
-            </Col> 
-                 </Row>
+             
+             <><img style={{width:"450px",height:"400px"}} src="https://img.freepik.com/free-vector/girl-sitting-ottoman-working-laptop-cartoon-character-vector-illustration-isolated-white-background_177886-427.jpg" className="rounded mx-auto d-block" alt=" Sample"/>
+            </>
+        </Row>
             
         </Container>
        

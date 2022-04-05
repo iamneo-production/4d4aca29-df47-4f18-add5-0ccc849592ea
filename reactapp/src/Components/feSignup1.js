@@ -38,23 +38,23 @@ class Signup extends React.Component
                             <Col lg={4} md={6} sm={12}>
 
                             <Form>
-                <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Group className="mb-3" controlId="formBasicEmail@">
                 <Form.Control type="email" placeholder="Enter Email" />
                 </Form.Group>
 
-                <Form.Group className="mb-3" controlId="formBasicText">
+                <Form.Group className="mb-3" controlId="formBasicText_">
                 <Form.Control type="text" placeholder="UserName" />
                 </Form.Group>
 
-                <Form.Group className="mb-3" controlId="formBasicText">
+                <Form.Group className="mb-3" controlId="formBasicText0">
                 <Form.Control type="text" onChange={this.uservalue}   placeholder="Enter Mobile Number" name="pno"/>{this.state.errmsg}
                 </Form.Group>
         
-                <Form.Group className="mb-3" controlId="formBasicPassword">
+                <Form.Group className="mb-3" controlId="formBasicPassword1">
                 <Form.Control type="password" placeholder="Password" />
                 </Form.Group>
 
-                <Form.Group className="mb-3" controlId="formBasicPassword">
+                <Form.Group className="mb-3" controlId="formBasicPassword2">
                 <Form.Control type="password" placeholder="Confirm Password" />
                 </Form.Group>
 
@@ -62,19 +62,17 @@ class Signup extends React.Component
                   <Form.Check type="checkbox" label="I Agree All The Terms And Condition" />
                  </Form.Group>
 
-                <Button variant="primary btn-block" type="submit">SIGNUP</Button>
-                
-                <p className="text-center">
-                    <br/>
+                 <Button variant="primary btn-block" type="submit">SIGNUP</Button>
+                <p className="text-center"  style={{color:"orange"}}>
+                    <br/> Already have an Account ?
                     <Link to="login">
-                    <h6 style={{color:"non"}}> Already have an Account ? click here</h6>
+                    <small style={{color:"red"}}>   click here</small>
                </Link>
                </p>
                 </Form>
                 </Col>
-                     <Col lg={8} md={8} sm={8}>
-                     <img className=" w-100" src="https://www.popsci.com/uploads/2019/03/18/QDDBI4F3Z2RK7MSDAL6BM73I2U.jpg" alt=""/>
-                     </Col>
+                <><img style={{width:"450px",height:"400px"}} src="https://img.freepik.com/free-vector/young-girl-woman-headphones-sits-floor-listening-music-vector-illustration-flat-cartoon-style-isolated-white-background_351831-51.jpg" className="rounded mx-auto d-block" alt=" Sample"/>
+            </>
                 </Row>
                     </Container>
                 </>

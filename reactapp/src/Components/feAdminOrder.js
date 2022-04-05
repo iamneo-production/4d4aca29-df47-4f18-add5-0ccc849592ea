@@ -14,7 +14,7 @@ const View=() =>{
     ]
     const renderView = (view,index)=>{
       return (
-        <tr className="header " key={index}>
+        <tr className="header " style={{textAlign:"center"}} key={index}>
           <td>{ view.orderid}</td>
           <td>{view.userid}</td>
           <td>{view.productname}</td>
@@ -30,7 +30,7 @@ const View=() =>{
      <ReactBootStrap.Table className='mt-5'>
        
     <thead className="class">
-      <tr className="header2 " >
+      <tr className="header2 " style={{textAlign:"center"}}  >
         
         <th>orderid</th>     
         <th>userid</th>

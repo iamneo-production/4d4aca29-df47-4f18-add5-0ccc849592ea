@@ -1,17 +1,3 @@
-
-.icon-img
-{
-  width: 180px;
-  height: 150px;
-}
-.btn-primary{
-  color: #fff;
-  background-color: orange !important;
-  border-color: orange !important;
-}
-.reset{
-  color: orange;
-}
 .header {
     color:black ;
     font-family: verdana;
@@ -32,3 +18,14 @@
   .element{
     font-variant: small-caps;
   }
+.icon-img
+{
+  width: 180px;
+  height: 150px;
+}
+.btn-primary{
+  color: #fff;
+  background-color: orange !important;
+  border-color: orange !important;
+  
+}
