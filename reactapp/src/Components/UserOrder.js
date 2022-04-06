@@ -1,6 +1,5 @@
 import React from 'react';
 import * as ReactBootStrap from "react-bootstrap"; 
-//import './index.css';
 import '../index.css';
 
 const Order=() =>{
