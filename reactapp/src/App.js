@@ -1,3 +1,16 @@
+
+import './App.css';
+import Home from './components/home';
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Switch>
+        <Route path="/home" component={Home} exact />
+      </Switch>
+    </BrowserRouter>
+
 import Signup from './Components/feSignup1';
 import Login from './Components/feLogin1';
 import {Switch,Route} from 'react-router-dom';
@@ -16,6 +29,7 @@ function App() {
         <Route path="/" component={Signup}/>
       </Switch>
         </div>
+
   );
 }
 
