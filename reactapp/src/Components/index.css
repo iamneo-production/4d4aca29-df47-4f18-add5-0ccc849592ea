@@ -1,0 +1,31 @@
+.header {
+    color:black ;
+    font-family: verdana;
+    justify-content: center;
+    align-items: center;
+   }
+  
+  .header2 {
+    font-style: italic;
+    color: white;
+    text-transform: uppercase;
+    background-color:orange; 
+  }
+  
+  .class{
+    tab-size: 150px;
+  }
+  .element{
+    font-variant: small-caps;
+  }
+.icon-img
+{
+  width: 180px;
+  height: 150px;
+}
+.btn-primary{
+  color: #fff;
+  background-color: orange !important;
+  border-color: orange !important;
+  
+}
