@@ -4,7 +4,7 @@ import '../App.css';
 import Vo from'../img/view_order.png';
 import { Box } from "@material-ui/core";
 import {Form,Button, Container} from 'react-bootstrap';
-function order(){ 
+function edit(){ 
 return <div>
 <_n></_n>
 <Container>
@@ -13,7 +13,7 @@ return <div>
 <img src={Vo} class="img responsive"/></div>
 <div class="col-md-6">
   <div class="margin">
-<Box color="#fffffa" bgcolor="orange" p={2}><div style={{textAlign:"center"}}>ADD A PRODUCT</div></Box>
+<Box color="#fffffa" bgcolor="#ffcc00" p={2}><div style={{textAlign:"center"}}>EDIT PRODUCT</div></Box>
 <div style={{marginTop:"20px"}}><Form id="addinstrumentBody">
   <Form.Group className="mb-3" controlId="instrumentName">
     <Form.Control type="text" placeholder="Product Name"/>
@@ -30,8 +30,8 @@ return <div>
   <Form.Group className="mb-3" controlId="instrumentQuantity" >
     <Form.Control type="text" placeholder="Product Quantity" />
   </Form.Group>
-  <Button type="submit" id="addinstrumentButton" style={{color:"white",backgroundColor:"orange"}}>
-    ADD
+  <Button variant="warning" type="submit" id="addinstrumentButton" style={{color:"white"}}>
+    EDIT
   </Button>
 </Form>
 </div>
@@ -41,4 +41,5 @@ return <div>
 </Container>
 </div>
 }
-export default order
+export default edit
+
