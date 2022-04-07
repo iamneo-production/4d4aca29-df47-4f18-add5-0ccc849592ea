@@ -25,7 +25,7 @@ const View=() =>{
     }
     
     return (
-      <div className="container g1 mt-5">
+      <div className="container g1 mt-3">
     <br/>
      <ReactBootStrap.Table className='mt-5'>
        
